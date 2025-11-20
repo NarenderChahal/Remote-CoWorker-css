@@ -376,3 +376,17 @@ border-bottom:0px solid transparent !important;
     transform: translateX(0px); /* back to original */
   }
 }
+
+/*home-page-accordian-border*/
+.is-active-accordion .line-fill {
+  animation: faq-line 2s linear forwards;
+}
+
+@keyframes faq-line {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
