@@ -3,6 +3,10 @@
     animation: marquee 30s linear infinite;
 }
 
+*{
+    margin : auto ;
+}
+
 
 @keyframes marquee {
     0% {
