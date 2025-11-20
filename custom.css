@@ -1,6 +1,7 @@
 .w-webflow-badge{
   display:flex !important;
   }
+
 .logos-overflow__logos-wrapper{
     display: flex;
     animation: marquee 30s linear infinite;
