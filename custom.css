@@ -341,4 +341,38 @@ border-bottom:0px solid transparent !important;
     transform: translateY(0px); /* back to original */
   }
 }
+/* Apply to all images */
+.rotate3 {
+  animation: floatMove 3s ease-in-out infinite;
+}
 
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px); /* move up */
+  }
+  100% {
+    transform: translateY(0px); /* back to original */
+  }
+}
+
+/* Apply to all images */
+.rotate4 {
+  animation: floatMove 5s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-10px); /* move up */
+  }
+  100% {
+    transform: translateX(0px); /* back to original */
+  }
+}
