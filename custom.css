@@ -1,1 +1,383 @@
+.w-webflow-badge{
+  display:none !important;
+  }
+  .iti{
+  width:100% !important ;
+  }
+  .over{
+  overflow:hidden;
+  }
+.logos-overflow {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.logos-overflow__logos-wrapper{
+    display: flex;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  @media(min-width:1921px){
+    #headingone{
+    margin-left:auto;
+      margin-right:auto;
+      max-width:1420px !important;
+    }
+  }
+  
+    .swiper-thumbs .swiper-slide img {
+      opacity: 0.4;
+    }
+  .swiper-thumbs .swiper-slide-thumb-active img {
+      opacity: 1;
+    }
+  .swiper-thumbs .swiper-slide-thumb-active {
+     border-color:#EED2D0;
+    }
+  
+ 
+  
+
+.acodation-wraper.is-active-accordion {
+    border-bottom: 1px solid transparent !important;
+    background: linear-gradient(90deg, #ffffff, #ffffff) padding-box, linear-gradient(to right, #ff6347 50%, #dcdde1 50%) border-box !important;
+}
+
+ .accordion-item {
+  position: relative;
+  padding: 15px 0;
+}
+.accordion-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #EAECF0;
+  z-index: 0;
+  border-radius: 2px;
+}
+.accordion-item.no-border::after {
+  display: none;
+}
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.accordion-button.active {
+  color: #0A211F;
+}
+
+.accordion-body {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.4s ease;
+}
+.accordion-body.show {
+  height: fit-content;
+}
+
+.progress-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #FF6B50;
+  width: 0%;
+  border-radius: 2px;
+  animation: progress 4s linear forwards;
+  z-index: 1;
+}
+.accordion-item.no-border::after {
+  display: none;
+}
+@keyframes progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+ /*form*/
+textarea{
+resize:none !important;
+}
+
+ #myForm input:-webkit-autofill,
+#myForm input:-webkit-autofill:hover,
+#myForm input:-webkit-autofill:focus,
+#myForm textarea:-webkit-autofill,
+#myForm textarea:-webkit-autofill:hover,
+#myForm textarea:-webkit-autofill:focus,
+#myForm select:-webkit-autofill,
+#myForm select:-webkit-autofill:hover,
+#myForm select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #98A2B3; /* Text color */
+        -webkit-border-color: #D0D5DD; /* Text color */
+
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+  
+ #email-form input:-webkit-autofill,
+#email-form input:-webkit-autofill:hover,
+#email-form input:-webkit-autofill:focus,
+#email-form textarea:-webkit-autofill,
+#email-form textarea:-webkit-autofill:hover,
+#email-form textarea:-webkit-autofill:focus,
+#email-form select:-webkit-autofill,
+#email-form select:-webkit-autofill:hover,
+#email-form select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #98A2B3; /* Text color */
+        -webkit-border-color: #D0D5DD; /* Text color */
+
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.select-field { -webkit-appearance: none; 
+-moz-appearance: none;
+appearance: none;
+background-image: url('https://cdn.prod.website-files.com/6880b79a825dc00d03bc2ee6/689c1cb70a211a4a3862c727_Chevron%20down.svg'); 
+background-size: 30px 16px; 
+background-repeat: no-repeat;
+background-position: right center; }
+
+.slick-dots li > button:before , .slick-dots li  button  {display:none !important;
+}
+.slick-dots{
+bottom:0 !important;    
+text-align: start !important;
+}
+.slick-dots li.slick-active button , .slick-dots li.slick-active   {
+  background-color: #F25532 !important; 
+        width: 48px !important; 
+        border-radius:30px !important;
+}
+
+.slick-dots li  button , .slick-dots li   {
+  background-color: #FABBAD !important;
+width: 8px !important;
+height: 8px !important;
+border-radius: 50px !important;
+}
+  
+ input[type="email"]:invalid:not(:placeholder-shown) {
+  border-color: #e11d48;
+} 
+  
+  
+input, textarea, select {
+    border: 1px solid #d0d6dc;
+    transition: box-shadow .12s, border-color .12s;
+  }
+  input.error, textarea.error, select.error {
+    border-color: #e74c3c !important;
+    box-shadow: 0 0 0 4px rgba(231,76,60,0.06) !important;
+  }
+  .error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: inherit;
+  }
+
+/*swiper-dot*/
+  
+  .swiper-pagination .swiper-pagination-bullet{
+margin:0 2px;
+opacity:10%;
+background:#F25532;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+opacity:100%;
+}
+.swiper-pagination{
+height:12px;
+}
+  
+  /*radio-checked*/\
+  .w-checkbox-input--inputType-custom.w--redirected-checked{
+background-image:url('https://cdn.prod.website-files.com/6892d95048410d99783bf7db/689ad72d29298d5c92b46cc4_d5a72b9500df19dfb9a3ba0ff8d68f3e_check.svg');
+background-size: contain;
+}
+.w-checkbox-input--inputType-custom.w--redirected-focus{
+box-shadow:none !important;
+}
+.w-checkbox-input--inputType-custom.w--redirected-checked{
+border-color:#350C03;
+}
+  
+  
+  
+  
+.acodation-wraper.is-active-accordion{
+border-bottom: 1px solid transparent !important;
+ background: linear-gradient(90deg,  #F9F5F2, #F9F5F2 ) padding-box, linear-gradient(to right, #ff6347 50%, #dcdde1 50%) border-box !important;
+ }
+ .acodation-wraper.bt-border {
+    border-bottom-style: none !important;
+}
+.acodation-wraper.is-active-accordion.bt-border{
+border-bottom:0px solid transparent !important;
+}
+  
+
+
+ .accordion-item {
+  position: relative;
+  padding: 15px 0;
+  }
+.accordion-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #EAECF0;
+  z-index: 0;
+  border-radius: 2px;
+}
+
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.accordion-button.active {
+  color: #0A211F;
+}
+
+.accordion-body {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.4s ease;
+}
+.accordion-body.show {
+  height: fit-content;
+}
+
+.progress-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #FF6B50;
+  width: 0%;
+  border-radius: 2px;
+  animation: progress 4s linear forwards;
+  z-index: 1;
+}
+.accordion-item.no-border::after {
+  display: none;
+}
+@keyframes progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+  
+  
+/* Apply to all images */
+.rotate {
+  animation: floatMove 4s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px); /* move up */
+  }
+  100% {
+    transform: translateY(0px); /* back to original */
+  }
+}
+/* Apply to all images */
+.rotate1 {
+  animation: floatMove 6s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(6px); /* move up */
+  }
+  100% {
+    transform: translateY(0px); /* back to original */
+  }
+}
+
+/* Apply to all images */
+.rotate2 {
+  animation: floatMove 8s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(12px); /* move up */
+  }
+  100% {
+    transform: translateY(0px); /* back to original */
+  }
+}
+
+
+/* Apply to all images */
+.rotate3 {
+  animation: floatMove 3s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px); /* move up */
+  }
+  100% {
+    transform: translateY(0px); /* back to original */
+  }
+}
+
+/* Apply to all images */
+.rotate4 {
+  animation: floatMove 5s ease-in-out infinite;
+}
+
+/* Keyframes for movement */
+@keyframes floatMove {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-10px); /* move up */
+  }
+  100% {
+    transform: translateX(0px); /* back to original */
+  }
+}
 
